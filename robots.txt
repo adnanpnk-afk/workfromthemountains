@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adnanpnk-afk.github.io/workfromthemountains/sitemap.xml

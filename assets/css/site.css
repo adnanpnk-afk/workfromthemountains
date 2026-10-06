@@ -258,3 +258,43 @@ h2{font-size:clamp(34px,8vw,58px)}
 .who li.notfor .notfor-h{font-size:26px;line-height:1.15;margin:0 0 8px}
 @media (min-width:1024px){.who li.notfor .notfor-h{font-size:24px}}
 .form-done .done-h{color:var(--green)}
+
+/* —— Blog / journal —— */
+.journal{padding:64px 0}
+.journal-card{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px 22px 20px;max-width:560px;transition:border-color .2s,box-shadow .2s}
+.journal-card:hover{border-color:rgba(164,82,58,.35);box-shadow:0 12px 28px -18px rgba(47,74,58,.35)}
+.journal-meta{font:600 12px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--terra);margin-bottom:10px}
+.journal-card h3{font-size:clamp(24px,5vw,30px);margin-bottom:8px}
+.journal-card p{color:var(--grey);font-size:15.5px;line-height:1.5}
+.journal-more{display:inline-block;margin-top:14px;font:600 14px/1 var(--sans);color:var(--terra)}
+
+.blog-hero{padding:48px 0 28px}
+.blog-hero .lede{color:var(--grey);margin-top:14px;max-width:36em;font-size:18px}
+.blog-list{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:14px}
+.blog-list a{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px}
+.blog-list a:hover{border-color:rgba(164,82,58,.35)}
+.blog-list h2{font-size:clamp(24px,5.5vw,32px);margin:8px 0 8px}
+.blog-list p{color:var(--grey);font-size:15.5px;max-width:40em}
+
+.post-wrap{max-width:720px;margin:0 auto;padding:40px 22px 72px}
+.post-meta{font:600 12px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--terra);margin-bottom:14px}
+.post-wrap > h1{font-size:clamp(32px,7.5vw,48px);line-height:1.08;margin-bottom:14px}
+.post-deck{font-size:18px;line-height:1.55;color:var(--grey);margin-bottom:28px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.post-body h2{font-size:clamp(24px,5vw,30px);margin:36px 0 12px}
+.post-body p{margin:0 0 16px;color:var(--green);font-size:17px;line-height:1.65}
+.post-body ul{margin:0 0 18px;padding:0 0 0 1.15em;color:var(--green)}
+.post-body li{margin:0 0 10px;line-height:1.55;font-size:17px}
+.post-body li strong{font-weight:600}
+.post-body a{color:var(--terra)}
+.post-cta{margin-top:40px;padding:24px 22px;background:var(--green);color:var(--cream);border-radius:var(--r)}
+.post-cta p{margin:0 0 14px;color:rgba(243,241,234,.9);font-size:16px;line-height:1.5}
+.post-cta .btn{background:var(--cream);color:var(--green)}
+.post-cta .btn:hover{background:#fff}
+.post-nav{margin-top:28px;font-size:14.5px}
+.post-nav a{color:var(--terra);text-decoration:none;font-weight:600}
+.post-nav a:hover{text-decoration:underline}
+@media (min-width:960px){
+  .journal{padding:88px 0}
+  .blog-hero{padding:72px 0 36px}
+  .post-wrap{padding:56px 22px 96px}
+}
